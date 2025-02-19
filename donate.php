@@ -176,8 +176,8 @@ $(document).ready(function() {
                 if (response == 'success') {
                     Swal.fire({
                         icon: 'success',
-                        title: 'Message Sent!',
-                        text: 'Your form has been submitted successfully.',
+                        title: 'Thank you for your kind donation!',
+                        text: 'You are helping us a lot.',
                     }).then(function() {
                         $('#enquiryForm')[0].reset(); 
                     });
