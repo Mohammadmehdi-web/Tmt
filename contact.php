@@ -213,8 +213,8 @@ $(document).ready(function() {
                     // Display a success message using SweetAlert
                     Swal.fire({
                         icon: 'success',
-                        title: 'Message Sent!',
-                        text: 'Your message has been sent successfully.',
+                        title: 'Thank you for your inquiry!',
+                        text: 'We appreciate your patience. 💬',
                     }).then(function() {
                         // Clear the form fields after successful submission
                         $('#enquiryForm')[0]
