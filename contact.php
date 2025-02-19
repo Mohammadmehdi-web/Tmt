@@ -134,7 +134,7 @@
                                         placeholder="Last Name*">
                                 </div>
                                 <div>
-                                    <input type="text" class="form-control" name="phone" id="phone"
+                                    <input type="number" class="form-control" name="phone" id="phone"
                                         placeholder="Phone*">
                                 </div>
                                 <div>
