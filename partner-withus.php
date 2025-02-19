@@ -148,7 +148,7 @@
                                         placeholder="Last Name*" required>
                                 </div>
                                 <div>
-                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone*"
+                                    <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone*"
                                         required>
                                 </div>
                                 <div>
@@ -230,8 +230,8 @@ $(document).ready(function() {
                 if (response == 'success') {
                     Swal.fire({
                         icon: 'success',
-                        title: 'Message Sent!',
-                        text: 'Your message has been sent successfully.',
+                        title: 'Thank you for your inquiry!',
+                        text: 'We appreciate your patience. 💬',
                     }).then(function() {
                         $('#enquiryForm')[0].reset(); 
                     });
